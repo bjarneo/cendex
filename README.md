@@ -2,7 +2,7 @@ cendex [center index]
 --
 ![Travis](https://travis-ci.org/bjarneo/cendex.svg?branch=master)
 
-The most performant approach to find the index of an element in an array or string.
+The most performant package to find the index of an element in an array or string.
 
 How it works
 --

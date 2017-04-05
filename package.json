@@ -1,7 +1,7 @@
 {
   "name": "cendex",
-  "version": "1.0.1",
-  "description": "The most performant approach to find the index of an element in an array or string",
+  "version": "1.0.2",
+  "description": "The most performant package to find the index of an element in an array or string",
   "main": "index.js",
   "author": "Bjarne Oeverli",
   "license": "MIT",
