@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha -R spec index.test.js",
-    "test-watch": "mocha -R spec index.test.js --watch"
+    "test-watch": "mocha -R spec index.test.js --watch",
+    "prepush": "npm test"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "indexOf"
   ],
   "devDependencies": {
+    "husky": "^0.13.3",
     "lodash.indexof": "^4.0.5",
     "mocha": "^3.2.0",
     "nanobench": "^2.1.0",
