@@ -7,7 +7,7 @@ The most performant approach to find the index of an element in an array or stri
 How it works
 --
 It starts from the center of the array, increments and decrements from the center index until it finds the element. Which means it will be slow for the 25% first elements in an array, but faster than any other implementation for the last 75%.
-![How cendex work](https://raw.githubusercontent.com/bjarneo/cendex/master/chart.png)
+![How cendex work](https://github.com/bjarneo/cendex/blob/master/chart.png?raw=true)
 
 The median time used however if we have an array with 1000 entries, and look for first 100, 200, 300, 400, 500, 600, 700, 800, 900 then 999, will be faster than all of the other indexOf implementations. Even the native one. Please take a look at the benchmark test.
 
@@ -38,7 +38,7 @@ cendex(words, 'not here');  // Output: -1
 Benchmark
 --
 Result by using node v7.7.2
-![How cendex work](https://raw.githubusercontent.com/bjarneo/cendex/master/benchmark.png)
+![How cendex work](https://github.com/bjarneo/cendex/blob/master/benchmark.png?raw=true)
 
 Tests
 --
