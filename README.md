@@ -37,7 +37,7 @@ cendex(words, 'not here');  // Output: -1
 
 Benchmark
 --
-Result by using node v7.7.2
+Result by using node v7.7.2  
 ![How cendex work](https://github.com/bjarneo/cendex/blob/master/benchmark.png?raw=true)
 
 Tests
