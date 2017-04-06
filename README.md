@@ -19,7 +19,7 @@ $ npm i --save cendex
 ```
 
 ```js
-const mostCommon = require('cendex');
+const cendex = require('cendex');
 
 const words = [
     'cendex',
